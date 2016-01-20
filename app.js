@@ -4,4 +4,5 @@ $(document).on('ready', function () {
         accordion : true
     });
     $(".dropdown-button").dropdown();
+    $('nav').pushpin({ top: $('nav').offset().top });
 })
