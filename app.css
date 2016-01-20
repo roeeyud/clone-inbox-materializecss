@@ -1,0 +1,48 @@
+.brand-logo.left {
+    margin-left: 50px;
+}
+
+.button-collapse {
+    margin-left: 10px;
+}
+
+ul li:not(.active) .collapsible-header, ul li .collapsible-body {
+    border-bottom: none;
+}
+
+ul li .collapsible-header.active, ul li .collapsible-body .card-reveal {
+    background-color: #26a69a;
+    color: #eafaf9;
+}
+
+ul li.collection-item.active .collapsible-body{
+    margin-left: -20%;
+}
+
+ul li.collection-item.active.avatar {
+    position: absolute;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 997;
+}
+ul li.collection-item.avatar {
+    transition: none;
+}
+
+ul.collection.collapsible.popout {
+    position: inherit;
+}
+
+div.container {
+    margin: 0;
+    width: 100%;
+}
+
+ul.collection {
+    overflow: visible !important;
+}
+
+li.list-header {
+    pointer-events: none;
+}
